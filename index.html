@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+       <h1>Rock, Paper and Scissors Game</h1>
+            <form class="profile">
+                <p class="player-name">Please fill in your name</p>
+                <input type="text" name="text" id="text" placeholder="Your name">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+                <button class="game-rule"><a href="#rule">RULES</a></button>
+
+                <button class="restart">RESTART GAME</button>
+
+            <div class="button-container">
+            <button class="button" id="Rock" value="Rock">
+                <i class="fa fa-hand-rock-o" style="font-size:24px; " id="Rock"></i>
+                ROCK
+            </button>
+            <button class="button" id="Paper" value="Paper">
+                <i class="fa fa-hand-paper-o" style="font-size:24px;" id="Paper"></i>
+                PAPER
+            </button>
+            <button class="button" id="Scissors" value="Scissors">
+                <i class="fa fa-hand-scissors-o" style="font-size:24px;" id="Scissors"></i>
+                SCISSORS
+            </button>
+            </div>
+
+            <p class="display"></p>
+
+    <div class="rating">
+        <h3 class="scores">Score(s)</h3>
+        <p class="computer">
+            Meek(AI) : <span class="computer-score"></span>
+        </p>
+        <div class="profilee">
+        <p class="me">
+            <span class="player-name1"></span>
+            <span class="player-score"></span>
+        </p>
+        </div>
+
+        <p class="draw">
+            Tie : <span class="tie-score"> 
+             </span> 
+        </p>
+    </div>
+
+    <div class="rule" id="rule">
+        <h2>RULES OF THE GAME</h2>
+        <p class="rules">
+            A classic two-person game. Players start each round by saying, “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock, flat hand for paper, or their index and middle finger for scissors. Rock crushes scissors, scissors cut paper, and paper covers rock. See who wins each round!
+        </p>
+        <button class="start"><a href="#container">START GAME</a></button>
+    </div>  
+    </div>
+</body>
+</html>

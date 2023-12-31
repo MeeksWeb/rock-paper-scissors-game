@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images\ \(1\).jpg');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.profile {
+    margin-left: 30px;
+    user-select: none;
+}
+.player-name {
+    color: rgb(249, 249, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#text {
+    height: 28px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 10px;
+}
+#text:focus {
+    background-color: rgb(250, 250, 253);
+}
+#submit {
+    height: 28px;
+    width: 55px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+}
+#submit:hover {
+    height: 28px;
+    width: 55px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.game-rule{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    width: 90px;
+    height: 45px;
+    padding: 2px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.restart {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    width: 90px;
+    height: 45px;
+    padding: 2px;
+    background-color: transparent;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+.game-rule:hover{
+    background-color: black;
+}
+.restart:hover{
+    background-color: black;
+}
+h1 {
+    margin-top: 20px;
+    color: rgb(211, 201, 201);
+    user-select: none;
+}
+.scores{
+    color: white;
+}
+.computer, .player, .draw {
+    color:rgb(11, 1, 1) ;
+}
+span {
+    color:rgb(72, 203, 90) ;
+}
+h1{
+    text-align: center;
+}
+.button-container{
+    width: 700px;
+    margin: 105px auto 30px;
+    display: flex;
+}
+.button {
+    margin-left: 120px;
+    text-align: center;
+    width: 85px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 253, 252);
+    color: white;
+} 
+.button:hover{
+    background-color: rgb(17, 20, 22);
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(244, 244, 248);
+}
+.fa {
+    color: rgb(249, 246, 246);
+    width: 50px;
+}
+.button#Rock {
+    color: rgb(234, 234, 237);
+    display: block;
+    padding: 8px;
+}
+.button#Paper {
+    color: rgb(251, 251, 253);
+    display: block;
+    padding: 8px;
+}
+.button#Scissors {
+    color: rgb(249, 249, 253);
+    display: block;
+    padding: 8px;
+}
+.display {
+    text-align: center;
+    color: rgb(245, 246, 245);
+}
+.profilee {
+    display: flex;
+}
+.rating h3{
+    border-bottom:1px solid rgb(8, 0, 0) ;
+    width: 65px;
+    color: black;
+}
+
+.me{
+    display: flex;
+}
+.rating .computer, .player, .draw{
+    padding-top: 25px;
+}
+.rating {
+    width: 100px;
+    margin:80px auto ;
+    user-select: none;
+}
+.rating .player-name1{
+    color: black;
+}
+.profilee {
+    padding-top: 25px;
+}
+.rule {
+    width: 440px;
+    height: 160px;
+    margin: 280px auto 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    user-select: none;
+    
+}
+.rule h2 {
+    color: rgb(1, 13, 1);
+    
+}
+.rule .rules{
+    color: rgb(3, 11, 1);
+    margin-top: 8px;
+    font-weight: bolder;
+}
+.start {
+    width: 90px;
+    height: 45px;
+    padding: 2px;
+    margin-top: 10px;
+    /* margin-left: 105px; */
+    background-color: transparent;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+@media (min-width : 300px) and (max-width : 700px)  {
+    body {
+        background-image: url('images\ \(1\).jpg');
+        background-repeat: repeat-y;
+        background-size: contain;
+    }
+    .button-container{
+        width: 400px;
+        margin: 60px auto 50px;
+        display: flex;
+        gap: 48px;
+    }
+    .button {
+        margin-left: 10px;
+        text-align: center;
+        width: 85px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 2px solid rgb(252, 253, 252);
+        color: white;
+    } 
+    .profile {
+        margin-top: 20px;
+        margin-left: 10px;
+        user-select: none;
+    }
+    .container {
+        width: 400px;
+        margin: 40px auto;
+    }
+
+    .restart {
+        position: relative;
+        left: 200px;
+        top: 25px;
+        width: 90px;
+        height: 45px;
+        padding: 2px;
+        background-color: transparent;
+        color: aliceblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 10px;
+    }
+    .display {
+        margin-top: 80px;
+    }
+
+    .rating .computer, .player, .draw{
+        padding-top: 15px;
+    }
+    .rating {
+        width: 100px;
+        margin: 60px auto ;
+        user-select: none;
+        display: block;
+    }
+    .game-rule{
+        position: relative;
+        top: 30px;
+        left: 10px;
+        width: 90px;
+        height: 45px;
+        padding: 2px;
+        background-color: transparent;
+        border-radius: 10px;
+    
+    }
+    .rule {
+        width: 300px;
+        height: 200px;
+        margin: 400px auto 30px;
+        background-color: aliceblue;
+        padding: 10px;
+        user-select: none;
+        
+    }
+    .start {
+        width: 90px;
+        height: 45px;
+        padding: 2px;
+        margin-top: 20px;
+        border-color: aliceblue;
+        background-color: transparent;
+        color: aliceblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
