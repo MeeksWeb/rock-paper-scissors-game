@@ -232,8 +232,6 @@ function saveToStorage(player1) {
 }
 
 
-    let innerSet = ''
-
 restart.addEventListener('click', () =>{
     computerScore.innerHTML = " ";
     tieScore.innerHTML = " ";

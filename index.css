@@ -99,7 +99,7 @@ h1{
     text-align: center;
 }
 .button-container{
-    width: 700px;
+    width: 600px;
     margin: 105px auto 30px;
     display: flex;
 }
@@ -197,20 +197,20 @@ h1{
     border-radius: 10px;
 }
 
-@media  (max-width : 700px)  {
+@media (min-width: 360px) and (max-width : 600px)  {
     body {
         background-image: url('images\ \(1\).jpg');
-        background-repeat: repeat-y;
-        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .button-container{
-        width: 400px;
-        margin: 60px auto 50px;
+        width: 340px;
+        margin: 110px auto 50px;
         display: flex;
-        gap: 48px;
+        gap: 33px;
     }
     .button {
-        margin-left: 10px;
+        margin-left: 5px;
         text-align: center;
         width: 85px;
         height: 50px;
@@ -225,14 +225,25 @@ h1{
         user-select: none;
     }
     .container {
-        width: 400px;
+        width: 350px;
         margin: 40px auto;
+    }
+    .game-rule{
+        position: absolute;
+        top: 230px;
+        left: 15px;
+        width: 90px;
+        height: 45px;
+        padding: 2px;
+        background-color: transparent;
+        border-radius: 10px;
+    
     }
 
     .restart {
-        position: relative;
-        left: 200px;
-        top: 25px;
+        position: absolute;
+        right: 15px;
+        top: 230px;
         width: 90px;
         height: 45px;
         padding: 2px;
@@ -254,21 +265,11 @@ h1{
         user-select: none;
         display: block;
     }
-    .game-rule{
-        position: relative;
-        top: 30px;
-        left: 10px;
-        width: 90px;
-        height: 45px;
-        padding: 2px;
-        background-color: transparent;
-        border-radius: 10px;
-    
-    }
+
     .rule {
         width: 300px;
         height: 200px;
-        margin: 400px auto 30px;
+        margin: 300px auto 100px;
         background-color: aliceblue;
         padding: 10px;
         user-select: none;
@@ -278,7 +279,8 @@ h1{
         width: 90px;
         height: 45px;
         padding: 2px;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         border-color: aliceblue;
         background-color: transparent;
         color: aliceblue;
