@@ -83,7 +83,7 @@ a{
 }
 h1 {
     margin-top: 20px;
-    color: rgb(211, 201, 201);
+    color: rgb(250, 246, 246);
     user-select: none;
 }
 .scores{
@@ -191,14 +191,13 @@ h1{
     height: 45px;
     padding: 2px;
     margin-top: 10px;
-    /* margin-left: 105px; */
     background-color: transparent;
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
 }
 
-@media (min-width : 300px) and (max-width : 700px)  {
+@media  (max-width : 700px)  {
     body {
         background-image: url('images\ \(1\).jpg');
         background-repeat: repeat-y;
